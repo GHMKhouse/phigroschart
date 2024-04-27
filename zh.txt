@@ -1,0 +1,275 @@
+SpeedLabel 倍速
+YScaleLabel 纵向拉伸
+BarGapLabel 横线
+VBarGapLabel 竖线
+NowLineLabel 线号
+OtherAlphaLabel 次透明化
+CameraPosLabel Camera
+PlayViewLabel 播放
+PauseViewLabel 停止
+JumpViewLabel 跃进
+ReplayViewLabel 预览
+InfoEditMainLabel 谱面基本信息
+OffsetLabel 偏移
+BPMEditMainLabel 拍数管理
+LineEditMainLabel 判定线管理
+MakeCurveMainLabel 填充曲线音符
+CheckErrorMainLabel 谱面纠错
+ClipBoardMainLabel 历史操作
+GenPicMainLabel 生成曲线轨迹
+ViewPicMainLabel 配置缩略图
+SwitchUILabel 事件视图
+CopyLabel 复制
+ShearLabel 剪切
+PasteLabel 粘贴
+MakeChangeLabel 执行
+SaveHint0 保存成功
+InfoEditLabel 谱面基本信息
+NameLabel 谱面名称
+LevelLabel 谱面难度
+AuthorLabel 作曲者
+CharterLabel 谱面设计
+NumIdLabel 标识名
+OpenLabel 打开文件夹
+ConfirmLabel2 保存
+CancelLabel 取消
+PageUpLabel 上一页
+PageDownLabel 下一页
+SwitchLabel[0] 音符
+SwitchLabel[1] 事件
+SwitchLabel[2] 其他
+HideWarningLabel 隐藏警告
+CheckErrorLabel 谱面纠错
+GenCurveLabel 生成曲线轨迹
+CurveStLabel 起始时间
+CurveEdLabel 结束时间
+CurveXLabel X参数方程
+CurveYLabel Y参数方程
+XtLabel X侧时间缓动
+YtLabel Y侧时间缓动
+ConfirmLabel 生成
+rhoLabel 密度
+dirLabel 角度方程（可选）
+BPMLabel 基础BPM
+DeleteWord 确认删除谱面
+ExportLabel 已导出到
+AddChartLabel 添加谱面
+EditChartLabel 编辑
+DeleteChartLabel 删除
+ImportChartLabel 导入谱面
+ExportChartLabel 导出谱面
+EnterLabel 进入
+UploadLabel 上传谱面
+ShopLabel 在线谱面
+confirmlabel3 确认
+cancellabel3 取消
+lineNumLabel 基础线数
+
+ChangeKeepLabel 放置
+KeepFakeLabel 假音符
+KeepDownLabel 反向音符
+KeepSpeedLabel 速度
+KeepOffsetLabel y轴偏移
+KeepSizeLabel 宽度
+KeepTimeLabel 可视时间
+KeepAlphaLabel 透明度
+
+BPMEditLabel 拍数管理
+BPMStartLabel 开始时刻
+BPMValueLabel 每分钟拍数
+BPMAddLabel 添加
+BPMClearLabel 清空
+
+EditHistoryLabel 操作序列查看
+ConfirmLabel4 重做
+CancelLabel4 撤销
+
+InfoEditLabel1 单个音符编辑
+time1Label 起始时间
+time2Label 结束时间
+xLabel X坐标
+vLabel 速度
+posLabel 下落朝向
+yLabel Y值偏移
+fakeLabel 真值
+sizeLabel 宽度
+showLabel 可视时间/秒
+alLabel 透明度
+DeleteLabel5 删除
+ConfirmLabel5 保存
+CancelLabel5 取消
+SaveHintLabel 已保存音符更改
+
+ConfirmLabel6 应用
+CancelLabel6 清空
+InfoEditLabel2 多音符编辑
+dataLabel 数值种类
+typeLabel 修改方式
+lowLabel 数值下界
+upLabel 数值上界
+easingLabel1 缓动类型
+cycleLabel 周期数列
+disturbLabel 扰动
+
+InfoEditLabel3 单个事件编辑
+stLabel 起点
+edLabel 终点
+SaveHintLabel2 已保存事件更改
+lockedlabel 钩定
+linkLabel 绑定组
+CoverLabel 粘合
+SampleLabel 切割
+RandLabel 随机
+NextLabel 递推
+CutLabel 拆分
+StickLabel 粘合
+SwapLabel 交换
+qyLabel 取样
+
+Mutliswitch11 编辑
+Mutliswitch12 克隆
+LineIdLabel 线号序列
+dtLabel 时间增量/横线数
+MixLabel1 X上下缓扰
+CloneLabel1 X周期数列
+MixLabel2 Y上下缓扰
+CloneLabel2 Y周期数列
+MixLabel3 旋转上下缓扰
+CloneLabel3 旋转周期数列
+MixLabel4 透明上下缓扰
+CloneLabel4 透明周期数列
+KeepSourceLabel 保留源
+
+ConfirmCloneLabel 执行
+CancelCloneLabel 重置
+
+InfoEditLabel4 多事件编辑
+dataLabel2 事件种类
+typeLabel2 修改类型
+SaveHintLabel3 已应用事件更改
+
+LineEditLabel 判定线管理
+BPMStartLabel2 编号
+BPMValueLabel2 信息
+BPMAddLabel2 添加
+LineDeleteLabel 删除
+SaveHintLabel4 判定线修改成功
+AddGroupLabel 添加组
+SwitchLabel1 当前状态
+SwitchLabel2 全局状态
+
+MakeCurveLabel 填充曲线音符
+CurveLabel1 曲线起点音符
+CurveLabel2 曲线终点音符
+CurveChooseLabel1 选择
+CurveChooseLabel2 选择
+CurveEasingLabel 曲线类型
+CurveNoteLabel 音符种类
+CurveRateLabel 密度
+SaveHintLabel 已执行曲线填充
+
+ViewPicLabel 配置缩略图
+DivLabel 竖条拍数
+y0Label 底边高度
+vwLabel 竖条宽度
+vgLabel 竖条间隔
+lvLabel 音符x下界
+rvLabel 音符x上界
+wvLabel 音符半宽度
+hvLabel 音符半高度
+svLabel 数字大小
+pvLabel 每小节拍数
+ovLabel 显示为拍数
+yvLabel 跟随总进度条
+
+ReturnLabel 返回
+SaveLabel9 保存谱面
+PreviewLabel 播放谱面
+PecLabel 导出为旧pec
+ReChartLabel 重载谱面
+InChartLabel 导入谱面
+LanLabel 语言Language
+QuitHint 警告：未保存的谱面将丢失！
+CancelQuitLabel 取消退出
+switchLabel1 常规
+switchLabel2 热键
+switchLabel3 其他
+switchLabel4 纠错相关
+switchLabel5 关于
+switchLabel6 其他2
+
+ConfirmLabel7 确认
+SaveHint5 已保存设置
+MusicVolumeLabel 音乐音量
+SEVolumeLabel 音效音量
+HighLabel 高亮等时音符
+HighReLabel 刷新高亮度
+WindowLabel 窗口大小(等比于1920:1080)
+NoteSizeLabel 音符宽度
+LineSizeLabel 判定线默认宽度
+ShowNumberLabel 标注判定线数字
+LineColorLabel 判定线默认颜色
+BackAlphaLabel 背景亮度
+TapOffsetLabel 打击音延迟1(Tap/Flick)
+DragOffsetLabel 打击音延迟2(Drag)
+
+AutoSaveLabel 自动保存(间隔秒数)
+ScrollSpeedLabel 鼠标滚轮速度
+ScrollControlLabel 事件微调速度
+BackAlphaLabel 实时背景透明度倍率
+PreViewLabel 预览窗口大小
+SaveEditingLabel 自动保存部分编辑
+AutoCtrlLabel 自动移入剪切板
+CrushNiceLabel 保持XY事件绑定 (警告!)
+TipsOnLabel 开启Tips
+UndoJumpLabel 撤回与重做时自动跳转
+AutoStickLabel 编辑事件自动后粘合
+CutRhoLabel 切割密度/横线
+EventDrawLabel 绘制事件曲线
+EventNumLabel 显示事件数字
+BarWidthLabel 线条宽度
+BarAlphaLabel 线条透明度
+
+AboutLabel1 Re:PhiEdit v1.4.0
+AboutLabel2 -
+AboutLabel3 -
+
+XlimLabel X大小阈值
+OverLapLabel 碰撞距离
+TimeShortLabel 读谱时间下界/秒
+DragLimLabel Drag警告距离/秒
+FlickLimLabel 组合时间上界/秒
+
+
+PrefabEventLabel 预制事件
+InputName 预制件名称
+InputName2 标识名（仅允许英文，数字及下划线）
+InputAuthor 作者
+InputIntro 简要描述
+
+EventVisLabel 事件取样
+HengGapLabel 横向间隔
+ShuGapLabel 纵向间隔
+BarAlphaLabel1 格线透明度
+
+ScrollAccLabel 开启滚轮加速度
+
+FontLabel 字体
+
+ShowKeyLabel 显示按键
+AttachScrollLabel 时间吸附到横线
+GapSelectLabel 间隔多选
+ClickMenuLabel 右键菜单
+LineSelectLabel 划线多选
+HisSizeLabel 历史记录大小
+ShowDensityLabel 显示密度条
+
+MultiLineMainLabel 多线编辑
+OpenMultiLabel 启用多线编辑
+MultiVecLabel 线号列表
+MultiEventLabel 编辑事件
+HideXYLabel 隐藏移动事件
+HideRLabel 隐藏旋转事件
+HideALabel 隐藏透明度事件
+HideVLabel 隐藏速度事件
+MultiScaleLabel 缩放

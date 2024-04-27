@@ -1,0 +1,1032 @@
+/*
+To UI Components except for "Labels", the format includes Width and Height control for the first two integers
+All UI Components' format is followed by four floating point numbers standing for:
+
+X and Y coordinates of the component's anchorpoint, ranges from 0.0 to 1.0, multiplied by WindowSize in actual computing
+
+coordinates of the anchorpoint, often a "0.5 0.5", meaning it's right in the middle
+*/
+
+
+----EditMain----
+
+fast2slider 245 12 0.5 0.5 0.5 0.5
+fast1slider 245 12 0.5 0.5 0.5 0.5
+fasteslider 245 12 0.5 0.5 0.5 0.5
+fastvslider 245 12 0.5 0.5 0.5 0.5
+
+linkuisp 40 40 0.09 0.965 0.5 0.5
+linkuiEdit 75 40 0.124 0.965 0.5 0.5
+
+FatherSp 40 40 0.09 0.910 0.5 0.5
+FatherEdit 75 40 0.124 0.910 0.5 0.5
+
+
+LineUpButton 22 22 0.2725 0.9200 0.5 0.5
+LineDownButton 22 22 0.2725 0.9005 0.5 0.5
+
+BarGapUpButton 22 22 0.4825 0.975 0.5 0.5
+BarGapDownButton 22 22 0.4825 0.9555 0.5 0.5
+
+VBarGapUpButton 22 22 0.4825 0.9200 0.5 0.5
+VBarGapDownButton 22 22 0.4825 0.9005 0.5 0.5
+
+HideTool 40 40 0.680 0.965 0.5 0.5
+
+Back 1920 1080 0.5 0.5 0.5 0.5
+BackUpSprite 1920 150 0.5 0.935 0.5 0.5
+
+TimeLabel 0.93 0.9425 1.0 0.5
+MaxTimeLabel 0.93 0.9425 0 0.5
+BeatsLabel 0.70 0.9425 0 0.5
+BPMLabel 0.845 0.9425 0.5 0.5
+
+TimeSlider 550 30 0.845 0.975 0.5 0.5
+EventScaleY 550 30 0.845 0.91 0.5 0.5
+
+waveSlider 300 20 0.3524 0.844 0.5 0.5
+
+layerevent 600 900 0.525 0.45 0 0
+layerview 1920 1080 0.5 0.5 0 0
+layernote 600 900 0.18 0.45 0 0
+layernote2 1200 900 0.35156 0.45 0 0
+
+SettingSwitchButton 200 100 0.55 0.35 0.5 0.5
+EditSwitchButton 200 100 0.65 0.35 0.5 0.5
+
+
+DeleteBack 1200 600 0.5 0.5 0.5 0.5
+
+DeleteWord 0.5 0.65 0.5 0.5
+DeleteConfirm 340 80 0.5 0.45 0.5 0.5
+DeleteCancel 340 80 0.5 0.55 0.5 0.5
+DeleteSave 540 80 0.5 0.35 0.5 0.5
+ExitCancel 0.5 0.55 0.5 0.5
+ExitConfirm 0.5 0.45 0.5 0.5
+ExitSave 0.5 0.35 0.5 0.5
+
+SpeedList 0.633 0.965 0.5 0.5
+SpeedLabel 40 40 0.593 0.965 0.5 0.5
+
+
+YScaleLabel 0.845 0.88 0.5 0.5
+
+BarGapEdit 60 40 0.460 0.965 0.5 0.5
+BarGapButton 40 40 0.430 0.965 0.5 0.5
+
+VBarGapEdit 60 40 0.460 0.910 0.5 0.5
+VBarGapButton 40 40 0.430 0.910 0.5 0.5
+
+NowLineEdit 60 40 0.250 0.910 0.5 0.5
+NowLineButton 42 42 0.2187 0.910 0.4 0.5
+OtherLineEdit 600 40 0.220 0.84 0.5 0.5
+
+unionLineButton 40 40 0.2190 0.965 0.5 0.5
+
+OtherAlphaEdit 60 40 0.250 0.965 0.5 0.5
+OtherAlphaLabel 40 40 0.220 0.965 0.5 0.5
+
+Settings 40 40 0.021 0.965 0.5 0.5
+LanButton 40 40 0.023 0.910 0.5 0.5
+
+PlayView 40 40 0.09 0.965 0.5 0.5
+PauseView 40 40 0.12 0.965 0.5 0.5
+JumpView 40 40 0.15 0.965 0.5 0.5
+ReplayView 40 40 0.18 0.965 0.5 0.5
+
+
+InfoEditMainButton 250 100 0.78 0.78 0.5 0.5
+InfoEditMainLabel 0.78 0.78 0.5 0.5
+
+BPMEditMainButton 250 100 0.78 0.67 0.5 0.5
+BPMEditMainLabel 0.78 0.67 0.5 0.5
+
+LineEditMainButton 250 100 0.78 0.56 0.5 0.5
+LineEditMainLabel 0.78 0.56 0.5 0.5
+
+MakeCurveMainButton 250 100 0.78 0.45 0.5 0.5
+MakeCurveMainLabel 0.78 0.45 0.5 0.5
+
+CheckErrorMainButton 250 100 0.78 0.12 0.5 0.5
+CheckErrorMainLabel 0.78 0.12 0.5 0.5
+
+ClipBoardMainButton 250 100 0.78 0.23 0.5 0.5
+ClipBoardMainLabel 0.78 0.23 0.5 0.5
+
+GenPicMainButton 250 100 0.92 0.78 0.5 0.5
+GenPicMainLabel 0.92 0.78 0.5 0.5
+
+ViewPicMainButton 250 100 0.78 0.34 0.5 0.5
+ViewPicMainLabel 0.78 0.34 0.5 0.5
+
+PrefabEventMainButton 250 100 0.92 0.67 0.5 0.5
+PrefabEventMainLabel 0.92 0.67 0.5 0.5
+
+MultiLineMainButton 250 100 0.92 0.56 0.5 0.5
+MultiLineMainLabel 0.92 0.56 0.5 0.5
+
+
+EventVisMainButton 250 100 10.92 0.67 0.5 0.5
+EventVisMainLabel 10.92 0.67 0.5 0.5
+
+
+OffsetEdit 75 40 0.547 0.965 0.5 0.5
+OffsetLabel 40 40 0.513 0.965 0.5 0.5
+
+MoreButton 40 40 0.633 0.910 0.5 0.5
+
+InfoButton 30 30 0.028 0.02 0 0.5
+TotalInfo 0.048 0.02 0 0.5
+HelpButton 30 30 0.008 0.02 0 0.5
+
+ShowViewBox 40 40 0.0543 0.910 0.5 0.5
+SwithcUIButton 40 40 0.0543 0.965 0.5 0.5
+
+CopyButton 40 40 0.09 0.910 0.5 0.5
+ShearButton 40 40 0.12 0.910 0.5 0.5
+PasteButton 40 40 0.15 0.910 0.5 0.5
+
+MakeChangeList 0.3635 0.965 0.5 0.5
+MakeChangeButton 40 40 0.310 0.965 0.5 0.5
+
+CameraPosEdit 65 40 0.3855 0.910 0.5 0.5
+CameraPosLabel 1.62 0.02 0.5 0.5
+
+vssp 40 40 0.3105 0.910 0.5 0.5
+VSEdit 65 40 0.3419 0.910 0.5 0.5
+
+MuteCheck 40 40 0.6815 0.910 0.5 0.5
+
+ClipJumpButton 40 40 0.513 0.965 0.5 0.5
+
+ImproviseButton 40 40 0.5143 0.9107 0.5 0.5
+
+
+orzButton 40 40 0.55365 0.9107 0.5 0.5
+FormatBrushButton 40 40 0.593 0.909 0.5 0.5
+
+ratioEdit 75 40 0.547 0.910 0.5 0.5
+ratioSprite 40 40 0.513 0.910 0.5 0.5
+
+showviewUIButton 40 40 0.593 0.910 0.5 0.5
+
+
+fastbutton 40 40 0.55365 0.965 0.5 0.5
+
+makeupbutton 40 40 0.593 0.965 0.5 0.5
+waveButton 40 40 0.633 0.965 0.5 0.5
+refreshButton 25 25 0.655 0.965 0.5 0.5
+
+KeepFakeBox 30 30 0.143 0.84 0.5 0.5
+KeepDownBox 30 30 0.143 0.79 0.5 0.5
+
+KeepFakeLabel 0.043 0.841 0 0.5
+KeepDownLabel 0.043 0.791 0 0.5
+KeepSpeedLabel 0.043 0.741 0 0.5
+KeepOffsetLabel 0.043 0.691 0 0.5
+KeepSizeLabel 0.043 0.641 0 0.5
+KeepTimeLabel 0.043 0.591 0 0.5
+KeepAlphaLabel 0.043 0.541 0 0.5
+
+KeepSpeedEdit 0.154 0.74 1.0 0.5
+KeepOffsetEdit 0.154 0.69 1.0 0.5
+KeepSizeEdit 0.154 0.64 1.0 0.5
+KeepTimeEdit 0.154 0.59 1.0 0.5
+KeepAlphaEdit 0.154 0.54 1.0 0.5
+
+ChangeKeep 40 40 0.18 0.910 0.5 0.5
+
+KeepBack 250 400 0.0335 0.875 0 1.0
+
+ClearSprite 580 5 0.853 0.8625 0.5 0.5
+NiceSprite 580 5 0.853 0.858 0.5 0.5
+
+tipLabel 0.995 0.02 1.0 0.5
+
+ClipBoardStartLabel 0.18 0.072 0.5 0.5
+
+
+VersionLabel 0.004 0.05 0 0.5
+
+---Info Edit---
+
+InfoEditLabel 0.8 0.8325 0.5 0.5
+BackButton 40 40 0.725 0.83 0.5 0.5
+
+BackInfo 575 70 0.8515 0.8325 0.5 0.5
+
+NameLabel 0.77 0.75 0.5 0.5
+LevelLabel 0.77 0.69 0.5 0.5
+AuthorLabel 0.77 0.63 0.5 0.5
+CharterLabel 0.77 0.57 0.5 0.5
+NumIdLabel 0.77 0.51 0.5 0.5
+
+NameEdit 300 50 0.895 0.75 0.5 0.5
+LevelEdit 300 50 0.895 0.69 0.5 0.5
+AuthorEdit 300 50 0.895 0.63 0.5 0.5
+CharterEdit 300 50 0.895 0.57 0.5 0.5
+NumIdEdit 300 50 0.895 0.51 0.5 0.5
+
+OpenLabel 0.85 0.4 0.5 0.5
+OpenButton 200 50 0.85 0.4 0.5 0.5
+
+ConfirmLabel 0.92 0.12 0.5 0.5
+CancelLabel 0.78 0.12 0.5 0.5
+ConfirmButton 120 60 0.92 0.12 0.5 0.5
+CancelButton 120 60 0.78 0.12 0.5 0.5
+
+
+
+---Event Edit---
+
+time1Edit 300 50 0.895 0.75 0.5 0.5
+time2Edit 300 50 0.895 0.69 0.5 0.5
+stEdit 300 50 0.895 0.63 0.5 0.5
+edEdit 300 50 0.895 0.57 0.5 0.5
+
+lockedcheck 40 40 0.895 0.45 0.5 0.5
+
+InfoEditLabel1 0.74 0.8325 0 0.5
+
+time1Label 0.77 0.75 0.5 0.5
+time2Label 0.77 0.69 0.5 0.5
+stLabel 0.77 0.63 0.5 0.5
+edLabel 0.77 0.57 0.5 0.5
+easingLabel 0.77 0.51 0.5 0.5
+
+linkEdit 300 50 0.895 0.39 0.5 0.5
+linkLabel  0.77 0.39 0.5 0.5
+
+lockedlabel 0.77 0.45 0.5 0.5
+
+easingEdit 60 50 0.833 0.51 0.5 0.5
+EasingTypeList 0.88 0.51 0.5 0.5
+EasingNameList 0.942 0.51 0.5 0.5
+
+CoverLabel 0.765 0.33 0.5 0.5
+CoverButton 95 50 0.765 0.33 0.5 0.5
+
+SampleLabel 0.825 0.33 0.5 0.5
+SampleButton 95 50 0.825 0.33 0.5 0.5
+
+RandLabel 0.885 0.33 0.5 0.5
+RandButton 95 50 0.885 0.33 0.5 0.5
+
+NextLabel 0.945 0.33 0.5 0.5
+NextButton 95 50 0.945 0.33 0.5 0.5
+
+CutLabel 0.885 0.27 0.5 0.5
+CutButton 95 50 0.885 0.27 0.5 0.5
+
+DeleteLabel 0.945 0.27 0.5 0.5
+DeleteButton 95 50 0.945 0.27 0.5 0.5
+
+SwapLabel 0.825 0.27 0.5 0.5
+SwapButton 95 50 0.825 0.27 0.5 0.5
+
+qyLabel 0.765 0.27 0.5 0.5
+qyButton 95 50 0.765 0.27 0.5 0.5
+
+EConfirmLabel 0.80 0.03 0.5 0.5
+ECancelLabel 0.75 0.03 0.5 0.5
+EConfirmButton 90 45 0.80 0.03 0.5 0.5
+ECancelButton 90 45 0.75 0.03 0.5 0.5
+
+BigupButton 50 50 0.717 0.75 0.5 0.5
+SmallupButton 50 50 0.717 0.69 0.5 0.5
+BigdownButton 50 50 0.717 0.51 0.5 0.5
+SmalldownButton 50 50 0.717 0.57 0.5 0.5
+
+EasingUpButton 29 29 0.981 0.522 0.5 0.5
+EasingDownButton 29 29 0.981 0.498 0.5 0.5
+LinkUpButton 29 29 0.981 0.402 0.5 0.5
+LinkDownButton 29 29 0.981 0.378 0.5 0.5
+
+easingl 340 17 0.859 0.07 0.5 0.5
+easingr 340 17 0.859 0.045 0.5 0.5
+
+OpenBezierButton 40 40 0.730 0.169 0.5 0.5
+BezierEdit 300 50 0.895 0.51 0.5 0.5
+
+OpenPreBezier 40 40 0.730 0.115 0.5 0.5
+PreBezierBack 607 700 0.860 0.476 0.5 0.5
+AddPreBezierButton  40 40 0.985 0.176 0.5 0.5
+BezierPageButton1 40 40 0.717 0.176 0.5 0.5
+BezierPageButton2 40 40 0.740 0.176 0.5 0.5
+
+ControlPoint1 40 40 0 0 0.5 0.5
+ControlPoint2 40 40 0 0 0.5 0.5
+
+PreBezierButton0 265 160 0.780 0.714 0.5 0.5
+PreBezierButton1 265 160 0.923 0.714 0.5 0.5
+PreBezierButton2 265 160 0.780 0.557 0.5 0.5
+PreBezierButton3 265 160 0.923 0.557 0.5 0.5
+PreBezierButton4 265 160 0.780 0.400 0.5 0.5
+PreBezierButton5 265 160 0.923 0.400 0.5 0.5
+PreBezierButton6 265 160 0.780 0.243 0.5 0.5
+PreBezierButton7 265 160 0.923 0.243 0.5 0.5
+
+FontNameSlider 150 12 0.98 0.39 0.5 0.5
+FontName 0.895 0.39 0.5 0.5
+
+
+---BPM Edit---
+
+BPMEditLabel 0.8 0.8325 0.5 0.5
+BPMStartLabel 0.76 0.77 0.5 0.5
+BPMValueLabel 0.86 0.77 0.5 0.5
+
+BPMAddLabel 0.79 0.12 0.5 0.5
+BPMAddButton 120 60 0.79 0.12 0.5 0.5
+
+BPMClearLabel 0.91 0.12 0.5 0.5
+BPMClearButton 120 60 0.91 0.12 0.5 0.5
+
+---Note Edit---
+xLabel 0.77 0.63 0.5 0.5
+vLabel 0.77 0.51 0.5 0.5
+posLabel 0.77 0.57 0.5 0.5
+yLabel 0.77 0.45 0.5 0.5
+fakeLabel 0.77 0.39 0.5 0.5
+sizeLabel 0.77 0.33 0.5 0.5
+showLabel 0.77 0.27 0.5 0.5
+alLabel 0.77 0.21 0.5 0.5
+
+xEdit 300 50 0.895 0.63 0.5 0.5
+vEdit 300 50 0.895 0.51 0.5 0.5
+PosDrop 0.895 0.57 0.5 0.5
+yEdit 300 50 0.895 0.45 0.5 0.5
+FakeDrop 0.895 0.39 0.5 0.5
+sizeEdit 300 50 0.895 0.33 0.5 0.5
+showEdit 300 50 0.895 0.27 0.5 0.5
+alEdit 300 50 0.895 0.21 0.5 0.5
+
+DeleteLabel1 0.85 0.12 0.5 0.5
+DeleteButton1 120 60 0.85 0.12 0.5 0.5
+
+SaveHintLabel 0.34 0.072 0.5 0.5
+
+---Line Edit---
+LineEditLabel 0.8 0.8325 0.5 0.5
+
+LineStartLabel 0.7305 0.72 0.5 0.5
+LineValueLabel 0.869 0.72 0.5 0.5
+
+SwitchButton1 280 60 0.775 0.77 0.5 0.5
+SwitchButton2 280 60 0.925 0.77 0.5 0.5
+
+SwitchLabel1 0.775 0.77 0.5 0.5
+SwitchLabel2 0.925 0.77 0.5 0.5
+
+PageDownLabel 0.96 0.065 0.5 0.5
+PageUpLabel 0.74 0.065 0.5 0.5
+PageDownButton 120 60 0.96 0.065 0.5 0.5
+PageUpButton 120 60 0.74 0.065 0.5 0.5
+
+LineAddLabel 0.814 0.065 0.5 0.5
+LineAddButton 120 60 0.814 0.065 0.5 0.5
+
+LineDeleteButton 120 60 0.886 0.065 0.5 0.5
+LineDeleteLabel 0.886 0.065 0.5 0.5
+
+AddGroupEdit 275 50 0.8 0.136 0.5 0.5
+
+AddGroupButton 100 50 0.91 0.136 0.5 0.5
+AddGroupLabel 0.91 0.136 0.5 0.5
+
+VisibleList 0.963 0.83 0.5 0.5
+VisibleList2 0.89 0.83 0.5 0.5
+
+---Settings---
+
+LeftBack 300 1200 0.077 0.5 0.5 0.5
+ReturnLabel 0.076 0.9712 0.5 0.5
+ReturnButton 300 60 0.077 0.9712 0.5 0.5
+
+SaveLabelS 0.076 0.9152 0.5 0.5
+SaveButtonS 300 60 0.077 0.9152 0.5 0.5
+SaveHintS 0.5 0.1 0.5 0.5
+
+PreviewLabel 0.076 0.8592 0.5 0.5
+PreviewButton 300 60 0.077 0.8592 0.5 0.5
+
+PecLabel 0.076 0.76 0.5 0.5
+PecButton 300 60 0.077 0.76 0.5 0.5
+
+JsonLabel 0.076 0.704 0.5 0.5
+JsonButton 300 60 0.077 0.704 0.5 0.5
+
+ReChartLabel 0.076 0.25 0.5 0.5
+ReChartButton 300 60 0.077 0.25 0.5 0.5
+
+InChartLabel 0.076 0.194 0.5 0.5
+InChartButton 300 60 0.077 0.194 0.5 0.5
+
+LanLabel 0.076 0.61 0.5 0.5
+
+QuitLabelS 0.076 0.0288 0.5 0.5
+QuitButtonS 300 60 0.077 0.0288 0.5 0.5
+QuitHintS 0.5 0.1 0.5 0.5
+
+CancelQuitLabelS 0.076 0.0848 0.5 0.5
+CancelQuitButtonS 300 60 0.076 0.0848 0.5 0.5
+
+switchLabel1 0.076 0.655 0.5 0.5
+switchButton1 300 60 0.076 0.655 0.5 0.5
+
+switchLabel2 0.076 0.60 0.5 0.5
+switchButton2 300 60 0.076 0.60 0.5 0.5
+
+switchLabel3 0.076 0.545 0.5 0.5
+switchButton3 300 60 0.076 0.545 0.5 0.5
+
+switchLabel6 0.076 0.490 0.5 0.5
+switchButton6 300 60 0.076 0.490 0.5 0.5
+
+switchLabel4 0.076 0.435 0.5 0.5
+switchButton4 300 60 0.076 0.435 0.5 0.5
+
+switchLabel5 0.076 0.380 0.5 0.5
+switchButton5 300 60 0.076 0.380 0.5 0.5
+
+BackG 1200 900 0.6 0.5 0.5 0.5
+UpBackG 1200 60 0.6 0.888 0.5 0.5
+UpBackLabelG 0.32 0.888 0.5 0.5
+
+MusicVolumeSlider 500 25 0.65 0.8 0.5 0.5
+MusicVolumeLabel 0.42 0.81 0 0.5
+
+SEVolumeSlider 500 25 0.65 0.74 0.5 0.5
+SEVolumeLabel 0.42 0.741 0 0.5
+
+CancelButtonG 120 50 0.795 0.119 0.5 0.5
+ConfirmButtonG 120 50 0.8685 0.12 0.5 0.5
+
+CancelLabelG 0.795 0.12 0.5 0.5
+ConfirmLabelG 0.8685 0.12 0.5 0.5
+
+ResetButton 120 50 0.7215 0.119 0.5 0.5
+ResetLabel 0.7215 0.12 0.5 0.5
+
+HighLabel 0.42 0.67 0 0.5
+HighCheck 40 40 0.60 0.67 0.5 0.5
+
+HighReButton 160 50 0.67 0.67 0.5 0.5
+HighReLabel 0.67 0.67 0.5 0.5
+
+WindowLabel 0.42 0.60 0 0.5
+WindowEdit 0.67 0.60 0.5 0.5
+
+NoteSizeLabel 0.42 0.53 0 0.5
+NoteSizeEdit 0.67 0.53 0.5 0.5
+
+LineSizeLabel 0.42 0.47 0 0.5
+LineSizeEdit 0.67 0.47 0.5 0.5
+
+ShowNumberLabel 0.42 0.41 0 0.5
+ShowNumberCheck 40 40 0.67 0.41 0.5 0.5
+
+LineColorLabel 0.42 0.35 0 0.5
+LineColorEdit 0.67 0.35 0.5 0.5
+
+BackAlphaLabel 0.42 0.29 0 0.5
+BackAlphaEdit 0.67 0.29 0.5 0.5
+
+TapOffsetLabel 0.42 0.23 0 0.5
+TapOffsetEdit 0.67 0.23 0.5 0.5
+
+DragOffsetLabel 0.42 0.17 0 0.5
+DragOffsetEdit 0.67 0.17 0.5 0.5
+
+
+AutoSaveLabel 0.32 0.79 0 0.5
+AutoSaveCheck 40 40 0.48 0.79 0.5 0.5
+AutoSaveEdit 0.56 0.79 0.5 0.5
+
+ScrollSpeedLabel 0.32 0.71 0 0.5
+ScrollSpeedEdit 0.56 0.71 0.5 0.5
+
+ScrollControlLabel 0.32 0.63 0 0.5
+ScrollControlEdit 0.56 0.63 0.5 0.5
+
+BackAlphaLabel1 0.32 0.55 0 0.5
+BackAlphaEdit1 0.56 0.55 0.5 0.5
+
+PreViewLabel 0.32 0.47 0 0.5
+PreViewEdit 0.56 0.47 0.5 0.5
+
+SaveEditingLabel 0.32 0.39 0 0.5
+SaveEditingCheck 40 40 0.56 0.39 0.5 0.5
+
+AutoCtrlLabel  0.32 0.31 0 0.5
+AutoCtrlCheck 40 40 0.56 0.31 0.5 0.5
+
+TipsOnLabel  0.32 0.23 0 0.5
+TipsOnCheck 40 40 0.56 0.23 0.5 0.5
+
+CrushNiceLabel  0.32 0.15 0 0.5
+CrushNiceCheck 40 40 0.56 0.15 0.5 0.5
+
+UndoJumpLabel  0.64 0.79 0 0.5
+UndoJumpCheck 40 40 0.88 0.79 0.5 0.5
+
+AutoStickLabel  0.64 0.71 0 0.5
+AutoStickCheck 40 40 0.88 0.71 0.5 0.5
+
+CutRhoLabel  0.64 0.63 0 0.5
+CutRhoEdit 0.85 0.63 0.5 0.5
+
+EventDrawLabel  0.64 0.55 0 0.5
+EventDrawCheck 40 40 0.88 0.55 0.5 0.5
+
+EventNumLabel  0.64 0.47 0 0.5
+EventNumCheck 40 40 0.88 0.47 0.5 0.5
+
+BarWidthLabel  0.64 0.39 0 0.5
+BarWidthEdit  0.85 0.39 0.5 0.5
+
+BarAlphaLabel  0.64 0.31 0 0.5
+BarAlphaEdit  0.85 0.31 0.5 0.5
+
+ScrollAccLabel  0.64 0.23 0 0.5
+ScrollAccCheck 40 40 0.88 0.23 0.5 0.5
+
+
+ShowKeyLabel 0.32 0.79 0 0.5
+ShowKeyCheck  40 40 0.56 0.79 0.5 0.5
+
+AttachScrollLabel 0.32 0.71 0 0.5
+AttachScrollCheck  40 40 0.56 0.71 0.5 0.5
+
+GapSelectLabel 0.32 0.63 0 0.5
+GapSelectEdit 0.56 0.63 0.5 0.5
+
+ClickMenuLabel 0.32 0.55 0 0.5
+ClickMenuCheck  40 40 0.56 0.55 0.5 0.5
+
+LineSelectLabel 0.32 0.47 0 0.5
+LineSelectCheck  40 40 0.56 0.47 0.5 0.5
+
+HisSizeLabel 0.32 0.39 0 0.5
+HisSizeEdit 0.56 0.39 0.5 0.5
+
+ShowDensityLabel 0.32 0.31 0 0.5
+ShowDensityCheck 40 40 0.56 0.31 0.5 0.5
+
+XlimLabel 0.42 0.7 0 0.5
+XlimEdit 0.67 0.7 0.5 0.5
+
+OverLapLabel 0.42 0.63 0 0.5
+OverLapEdit 0.67 0.63 0.5 0.5
+
+TimeShortLabel 0.42 0.56 0 0.5
+TimeShortEdit 0.67 0.56 0.5 0.5
+
+DragLimLabel 0.42 0.49 0 0.5
+DragLimEdit 0.67 0.49 0.5 0.5
+
+FlickLimLabel 0.42 0.42 0 0.5
+FlickLimEdit 0.67 0.42 0.5 0.5
+
+AboutLabel1 0.6 0.59 0.5 0.5
+AboutLabel2 0.6 0.5 0.5 0.5
+AboutLabel3 0.6 0.41 0.5 0.5
+
+HotPageDownLabel 0.46 0.12 0.5 0.5
+HotPageUpLabel 0.38 0.12 0.5 0.5
+HotPageDownButton 120 50 0.46 0.12 0.5 0.5
+HotPageUpButton 120 50 0.38 0.12 0.5 0.5
+
+pageshowlabel 0.54 0.12 0.5 0.5
+
+---Muti Note Edit---
+
+Mutliswitch1 280 60 0.775 0.77 0.5 0.5
+Mutliswitch2 280 60 0.925 0.77 0.5 0.5
+
+Mutliswitch11 0.775 0.77 0.5 0.5
+Mutliswitch12 0.925 0.77 0.5 0.5
+
+dataLabel 0.77 0.70 0.5 0.5
+typeLabel 0.77 0.40 0.5 0.5
+lowLabel 0.77 0.64 0.5 0.5
+upLabel 0.77 0.58 0.5 0.5
+easingLabel1 0.77 0.52 0.5 0.5
+cycleLabel 0.77 0.34 0.5 0.5
+disturbLabel 0.77 0.28 0.5 0.5
+typeLabel2 0.77 0.46 0.5 0.5
+typeLabel12 0.77 0.40 0.5 0.5
+typeLabel3 0.77 0.46 0.5 0.5
+
+dataDrop 0.895 0.70 0.5 0.5
+typeDrop 0.895 0.46 0.5 0.5
+lowEdit 300 50 0.895 0.64 0.5 0.5
+upEdit 300 50 0.895 0.58 0.5 0.5
+easingEdit1 300 50 0.895 0.52 0.5 0.5
+cycleEdit 300 50 0.895 0.34 0.5 0.5
+disturbEdit 300 50 0.895 0.28 0.5 0.5
+typeDrop2 0.895 0.46 0.5 0.5
+
+typeDrop12 0.895 0.40 0.5 0.5
+
+StickLabel 0.92 0.06 0.5 0.5
+StickButton 120 60 0.92 0.06 0.5 0.5
+
+NiheLabel 0.85 0.06 0.5 0.5
+NiheButton 120 60 0.85 0.06 0.5 0.5
+
+NiheLabel2 3.85 0.12 0.5 0.5
+NiheButton2 120 60 3.85 0.12 0.5 0.5
+
+SwapLabel2 0.85 0.12 0.5 0.5
+SwapButton2 120 60 0.85 0.12 0.5 0.5
+
+expButton 60 60 0.85 0.2 0.5 0.5
+expEdit 1200 500 0.5 0.70 0.5 0.5
+expDoButton 60 60 0.83 0.50 0.5 0.5
+
+downExpButton 60 60 0.15 0.10 0.5 0.5
+upExpButton 60 60 0.15 0.17 0.5 0.5
+
+expName 300 65 0.092 0.6 0.5 0.5
+expSave 60 60 0.092 0.52 0.5 0.5
+
+emuEdit 300 50 2.85 0.2 0.5 0.5
+
+DeleteLabel2 0.78 0.06 0.5 0.5
+DeleteButton2 120 60 0.78 0.06 0.5 0.5
+
+LineIdLabel 0.77 0.70 0.5 0.5
+LineIdEdit 300 50 0.9 0.70 0.5 0.5
+
+dtLabel 0.77 0.64 0.5 0.5
+dtEdit  200 50 0.9 0.64 0.5 0.5
+
+MixLabel1 0.77 0.58 0.5 0.5
+MixEdit1  300 50 0.9 0.58 0.5 0.5
+
+CloneLabel1 0.77 0.52 0.5 0.5
+CloneEdit1  300 50 0.9 0.52 0.5 0.5
+
+MixLabel2 0.77 0.45 0.5 0.5
+MixEdit2  300 50 0.9 0.45 0.5 0.5
+
+CloneLabel2 0.77 0.39 0.5 0.5
+CloneEdit2  300 50 0.9 0.39 0.5 0.5
+
+MixLabel3 0.77 0.32 0.5 0.5
+MixEdit3  300 50 0.9 0.32 0.5 0.5
+
+CloneLabel3 0.77 0.26 0.5 0.5
+CloneEdit3  300 50 0.9 0.26 0.5 0.5
+
+MixLabel4 0.77 0.19 0.5 0.5
+MixEdit4  300 50 0.9 0.19 0.5 0.5
+
+CloneLabel4 0.77 0.13 0.5 0.5
+CloneEdit4  300 50 0.9 0.13 0.5 0.5
+
+ConfirmCloneLabel 0.94 0.06 0.5 0.5
+ConfirmCloneButton 120 50 0.94 0.06 0.5 0.5
+
+CancelCloneLabel 0.76 0.06 0.5 0.5
+CancelCloneButton 120 50 0.76 0.06 0.5 0.5
+
+KeepSourceLabel 0.835 0.06 0.5 0.5
+KeepSourceCheck 40 40 0.87 0.06 0.5 0.5
+
+---Make Curve---
+MakeCurveLabel 0.74 0.8325 0 0.5
+
+easingEdit3 60 50 0.833 0.45 0.5 0.5
+CurveEasingLabel  0.74 0.45 0 0.5
+EasingTypeList1 0.88 0.45 0.5 0.5
+EasingNameList1 0.942 0.45 0.5 0.5
+
+CurveLabel1 0.77 0.75 0.5 0.5
+CurveLabel2 0.77 0.68 0.5 0.5
+
+CurveChooseLabel1 0.855 0.75 0.5 0.5
+CurveChooseLabel2 0.855 0.68 0.5 0.5
+
+CurveChooseButton1 120 60 0.855 0.75 0.5 0.5
+CurveChooseButton2 120 60 0.855 0.68 0.5 0.5
+
+CurveShowLabel1 0.90 0.75 0 0.5
+CurveShowLabel2 0.90 0.68 0 0.5
+
+CurveRateLabel 0.77 0.59 0.5 0.5
+CurveRateEdit 300 50 0.895 0.59 0.5 0.5
+
+CurveNoteLabel 0.77 0.52 0.5 0.5
+CurveNoteDrop 0.895 0.52 0.5 0.5
+
+
+---Playing---
+ComboNumLabel 0.5 0.95 0.5 0.5
+ComboLabel 0.5 0.9 0.5 0.5
+ScoreLabel 0.975 0.975 1.0 1.0
+
+Prefix 8 37 0.03 0.03 0 0
+PrefixLabel 0.042 0.025 0 0
+
+Diff 0.975 0.025 1.0 0
+
+Pause 42 42 0.03 0.9656 0 1.0
+
+PreNameLabel 0.5 0.6 0.5 0
+PreComposerLabel 0.5 0.4 0.5 1.0
+PreCharterLabel 0.5 0.35 0.5 1.0
+
+
+ComboNumLabel2 0.3516 0.825 0.5 0.5
+ComboLabel2 0.3516 0.7833 0.5 0.5
+ScoreLabel2 0.6855 0.8458 1.0 1.0
+
+Prefix2 8 37 0.021 0.05833 0 0
+PrefixLabel2 0.03 0.05417 0 0
+
+Diff2 0.6855 0.05417 1.0 0
+
+Pause2 42 42 0.021 0.838 0 1.0
+
+---ErrorCheck---
+CheckErrorLabel 0.74 0.8325 0 0.5
+HideWarningLabel 0.83 0.065 0.5 0.5
+HideWarningCheck 40 40 0.89 0.065 0.5 0.5
+CountLabel 0.85 0.12 0.5 0.5
+
+RefreshButtonCheck 38 38 0.972 0.83 0.5 0.5
+
+--EditHistory--
+EditHistoryLabel 0.74 0.8325 0 0.5
+
+RedoLabel 0.92 0.10 0.5 0.5
+UndoLabel 0.78 0.10 0.5 0.5
+RedoButton 120 60 0.92 0.10 0.5 0.5
+UndoButton 120 60 0.78 0.10 0.5 0.5
+
+usernameedit 300 50 0.48 0.6 0 0.5
+userpassedit 300 50 0.48 0.5 0 0.5
+userconfirmbutton 120 50 0.555 0.34 0.5 0.5
+userconfirmlabel 0.555 0.34 0.5 0.5
+
+userconfirmbutton2 120 50 0.455 0.34 0.5 0.5
+userconfirmlabel2 0.455 0.34 0.5 0.5
+
+usernamelabel 0.46 0.6 1.0 0.5
+userpasslabel 0.46 0.5 1.0 0.5
+remlabel 0.525 0.43 1.0 0.5
+remcheck 0.535 0.43 0 0.5
+
+ShopConfirm 300 100 0.5 0.2 0.5 0.5
+ShopNameLabel 0.5 0.35 0.5 0.5
+downloadbar 400 50 0.5 0.2 0.5 0.5
+
+ShopBigBack 2000 1200 0.5 0.5 0.5 0.5
+ShopNorBack 1400 900 0.5 0.5 0.5 0.5
+
+ShopLabel 0.17 0.9 0 0.5
+ShopBackButton 75 75 0.155 0.896 0.5 0.5
+ShopBackInfo 1400 80 0.5 0.9 0.5 0.5
+
+Shopprogresslabel 0.39 0.2 1.0 0.5
+
+ChartChangeButton 200 200 0.91 0.91 0.5 0.5
+ChartPortButton 200 200 0.09 0.91 0.5 0.5
+
+EditChartNameLabel 0.30 0.74 0 0.5
+EditChartAuthorLabel 0.30 0.62 0 0.5
+EditChartCharterLabel 0.30 0.50 0 0.5
+EditChartBPMLabel 0.30 0.38 0 0.5
+EditChartLevelLabel 0.30 0.38 0 0.5
+
+EditChartAuthorl 0.65 0.2 0 0.5
+EditChartCharterl 0.65 0.15 0 0.5
+EditChartLevell 0.6525 0.1 0 0.5
+EditCharttimel 0.8 0.93 0.5 0.5
+
+
+ChartNameEdit 500 60 0.46 0.74 0 0.5
+ChartAuthorEdit 500 60 0.46 0.62 0 0.5
+ChartCharterEdit 500 60 0.46 0.50 0 0.5
+ChartBPMEdit 500 60 0.46 0.38 0 0.5
+ChartLevelEdit 500 60 0.46 0.38 0 0.5
+
+ChartConfirm 210 70 0.67 0.15 0.5 0.5
+ChartCancel 210 70 0.33 0.15 0.5 0.5
+ChartDeleteConfirm 240 80 0.4 0.4 0.5 0.5
+ChartDeleteCancel 240 80 0.6 0.4 0.5 0.5
+ChartEditConfirm 210 70 0.67 0.15 0.5 0.5
+ChartEditCancel 210 70 0.33 0.15 0.5 0.5
+
+lineNumLabel 0.30 0.26 0 0.5
+lineNumEdit 500 60 0.46 0.26 0 0.5
+
+Chartconfirmlabel 0.67 0.15 0.5 0.5
+Chartcancellabel 0.33 0.15 0.5 0.5
+
+ChartDeleteWord 0.5 0.6 0.5 0.5
+ChartExportLabel 0.4 0.6 0.5 0.5
+ChartExportLabel2 0.5 0.4 0.5 0.5
+
+AddChartButton 400 90 0.12 0.72 0.5 0.5
+ChartAddLabel 0.12 0.72 0.5 0.5
+
+ChartEnterButton 300 50 0.8 0.04 0.5 0.5
+ChartEnterLabel  0.8 0.04 0.5 0.5
+
+EditChartButton 250 50 0.72 0.25 0.5 0.5
+ChartEditLabel 0.72 0.25 0.5 0.5
+
+DeleteChartButton 250 50 0.88 0.25 0.5 0.5
+ChartDeleteLabel 0.88 0.25 0.5 0.5
+
+
+ExportButton 400 90 0.12 0.92 0.5 0.5
+ChartExportLabel3 0.12 0.92 0.5 0.5
+
+ImportButton 400 90 0.12 0.82 0.5 0.5
+ChartImportLabel 0.12 0.82 0.5 0.5
+
+
+ToShopButton 400 90 0.12 0.08 0.5 0.5
+ToShopLabel 0.12 0.08 0.5 0.5
+
+
+ChartUploadButton 400 90 0.12 0.18 0.5 0.5
+ChartUploadLabel 0.12 0.18 0.5 0.5
+
+backbar 2000 150 0.5 0.5 0.5 0.5
+backbar2 700 1200 0.43 0.5 0.5 0.5
+
+
+---GenCurve--
+GenCurveLabel  0.74 0.8325 0 0.5
+
+CurveStLabel 0.77 0.75 0.5 0.5
+CurveStEdit 300 50 0.895 0.75 0.5 0.5
+
+CurveEdLabel 0.77 0.69 0.5 0.5
+CurveEdEdit 300 50 0.895 0.69 0.5 0.5
+
+CurveXLabel 0.77 0.63 0.5 0.5
+CurveXEdit 300 50 0.895 0.63 0.5 0.5
+
+CurveYLabel 0.77 0.57 0.5 0.5
+CurveYEdit 300 50 0.895 0.57 0.5 0.5
+
+XtLabel 0.77 0.51 0.5 0.5
+XtEdit 300 50 0.895 0.51 0.5 0.5
+
+YtLabel 0.77 0.45 0.5 0.5
+YtEdit 300 50 0.895 0.45 0.5 0.5
+
+rhoLabel  0.77 0.39 0.5 0.5
+rhoEdit 300 50 0.895 0.39 0.5 0.5
+
+dirLabel  0.77 0.33 0.5 0.5
+dirEdit 300 50 0.895 0.33 0.5 0.5
+
+loadingbar 500 50 0.5 0.1 0.5 0.5
+loadinglabel 0.5 0.12 0.5 0.5
+
+ThisLineInfo 0.35156 0.85 0.5 0.5
+ThisEventInfo 0.35156 0.80 0.5 0.5
+
+---ViewPic---
+ViewPicLabel  0.74 0.8325 0 0.5
+xslide 800 40 0.35156 0.06 0.5 0.5
+
+DivLabel 0.77 0.75 0.5 0.5
+DivEdit 300 50 0.895 0.75 0.5 0.5
+
+y0Label 0.77 0.69 0.5 0.5
+y0Edit 300 50 0.895 0.69 0.5 0.5
+
+vwLabel 0.77 0.63 0.5 0.5
+vwEdit 300 50 0.895 0.63 0.5 0.5
+
+vgLabel 0.77 0.57 0.5 0.5
+vgEdit 300 50 0.895 0.57 0.5 0.5
+
+lvLabel 0.77 0.51 0.5 0.5
+lvEdit 300 50 0.895 0.51 0.5 0.5
+
+rvLabel 0.77 0.45 0.5 0.5
+rvEdit 300 50 0.895 0.45 0.5 0.5
+
+wvLabel 0.77 0.39 0.5 0.5
+wvEdit 300 50 0.895 0.39 0.5 0.5
+
+hvLabel 0.77 0.33 0.5 0.5
+hvEdit 300 50 0.895 0.33 0.5 0.5
+
+svLabel 0.77 0.27 0.5 0.5
+svEdit 300 50 0.895 0.27 0.5 0.5
+
+pvLabel 0.77 0.21 0.5 0.5
+pvEdit 300 50 0.895 0.21 0.5 0.5
+
+ovLabel 0.77 0.15 0.5 0.5
+ovCheck 40 40 0.895 0.15 0.5 0.5
+
+yvLabel 0.77 0.09 0.5 0.5
+yvCheck 40 40 0.895 0.09 0.5 0.5
+
+LineNameLabel 0.698 0.85 1.0 0.5
+LineGroupLabel 0.698 0.82 1.0 0.5
+
+--EventVis--
+
+EventVisLabel 0.74 0.8325 0 0.5
+
+--Prefab--
+
+PrefabEventLabel 0.74 0.83 0 0.5
+PrefabUpbutton 40 40 0.724 0.09 0.5 0.5
+PrefabDownbutton 40 40 0.724 0.05 0.5 0.5
+PrefabMakebutton 40 40 0.975 0.09 0.5 0.5
+PrefabCancelbutton 40 40 0.975 0.05 0.5 0.5
+
+PrefabMakehint 0.181 0.072 0.5 0.5
+
+PrefabInputName 0.721 0.74 0 0.5
+PrefabNameEdit 300 50 0.721 0.690 0 0.5
+
+PrefabInputName2 0.721 0.62 0 0.5
+PrefabNameEdit2 350 50 0.721 0.57 0 0.5
+
+PrefabInputAuthor 0.721 0.47 0 0.5
+PrefabAuthorEdit 350 50 0.721 0.42 0 0.5
+
+PrefabInputIntro 0.721 0.32 0 0.5
+PrefabIntroEdit 500 50 0.721 0.27 0 0.5
+
+PrefabConfirmButton 50 50 0.92 0.14 0.5 0.5
+PrefabDeleteButton 50 50 0.78 0.14 0.5 0.5
+
+PrefabNamelabel 0.721 0.78 0 1.0
+PrefabNamelabel2 0.721 0.73 0 1.0
+
+PrefabDoButton 55 55 0.915 0.07 0.5 0.5
+
+PrefabClearButton 40 40 0.950 0.76 0 1.0
+
+PrefabTimeEdit 200 50 0.845 0.07 0.5 0.5
+
+--EventVis--
+
+HengGapLabel 0.741 0.71 0 0.5
+ShuGapLabel 0.741 0.635 0 0.5
+HengGapEdit 0.817 0.71 0 0.5
+ShuGapEdit 0.817 0.635 0 0.5
+
+HengGapBox 35 35 0.948 0.71 0.5 0.5
+ShuGapBox 35 35 0.948 0.635 0.5 0.5
+
+BarAlphaLabel1 0.741 0.540 0 0.5
+BarAlphaSlider 200 15 0.835 0.540 0 0.5
+
+--InputLayer--
+inputBack 576 324 0.330 0.355 0.5 0.5
+inputLabel 0.348 0.550 0 0.5
+inputText 500 40 0.348 0.486 0 0.5
+inputCancel 43 43 0.575 0.39 0.5 0.5
+inputConfirm 50 50 0.61 0.39 0.5 0.5
+inputBack2 576 35 0.330 0.489 0.5 0.5
+
+tagBackMain 590 200 0.845 0.9585 0.5 0.5
+multiLabelMain 0.18 0.85 0.5 0.5
+
+--MultiLine--
+MultiLineLabel 0.74 0.8325 0 0.5
+
+OpenMultiLabel  0.72 0.72 0 0.5
+OpenMultiCheck 40 40 0.905 0.72 0.5 0.5
+
+MultiVecLabel 0.72 0.64 0 0.5
+MultiVecEdit 300 50 0.905 0.64 0.5 0.5
+
+MultiEventLabel 0.72 0.56 0 0.5
+MultiEventCheck 40 40 0.905 0.56 0.5 0.5
+
+HideXYLabel 0.72 0.40 0 0.5
+HideXYCheck 40 40 0.905 0.40 0.5 0.5
+
+HideRLabel 0.72 0.32 0 0.5
+HideRCheck 40 40 0.905 0.32 0.5 0.5
+
+HideALabel 0.72 0.24 0 0.5
+HideACheck 40 40 0.905 0.24 0.5 0.5
+
+HideVLabel 0.72 0.16 0 0.5
+HideVCheck 40 40 0.905 0.16 0.5 0.5
+
+MultiScaleLabel 0.72 0.48 0 0.5
+MultiScaleEdit 300 50 0.905 0.48 0.5 0.5
+
+viewMask1 1350 1 0.35156 0.86667 0.5 1.0
+viewMask2 1350 1 0.35156 0.03333 0.5 0.0
+viewMask3 1 900 0.0 0.45 0 0.5
+viewMask4 1 900 0.70313 0.45 1.0 0.5

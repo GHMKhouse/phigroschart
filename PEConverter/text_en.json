@@ -1,0 +1,102 @@
+{
+	"welcome":"Welcome to PEConverter v0.2\n",
+	"ask":"\nPlease enter your instructions:\n\n",
+	"add":"L. load a new chart (enter L)\n",
+	"convert":"C. convert a chart (enter C)\n",
+	"output":"O. output a chart (enter O)\n",
+	"translation":"T. translation a chart by time (enter T)\n",
+	"merge":"M. merge two charts (enter M)\n",
+	"split":"S. split a chart (enter S)\n",
+	"exit":"E. exit (enter E)\n\n",
+	
+	"add-1":"\nEnter file name (including suffix):\n",
+	"add-2":"\nEnter the format of the chart:\n\n",
+	"add-2-1":"1.Phiediter PEC (enter 1)\n",
+	"add-2-2":"2.Re:PhiEdit Json\n",
+	"add-2-3":"3.Malody Slide (directly converted to Re:PhiEdit Json) \n",
+	"add-2-4":"4.Official [formatVersion=3] (... to Re:PhiEdit Json) \n\n",
+	
+	"output-1":"\nWhich chart would you like to output? (enter ID):\n",
+	"output-2":"\nName of output file? (including suffix):\n",
+	
+	"convert-1":"\nWhich chart would you like to convert? (enter ID):\n",
+	"convert-2":"\nEnter target format:\n\n",
+	"convert-2-1":"1.Phiediter PEC (enter 1)\n",
+	"convert-2-2":"2.Re:PhiEdit Json\n",
+	
+	"merge-1":"\nEnter ID of two charts:\n",
+	
+	"split-1":"\nEnter ID:\n",
+	"split-2":"\nSplit by time or by line?\n\n1.by time (enter 1)\n2.by line\n\n",
+	"split-3":"\nEnter split beats:\n",
+	"split-4":"\nlines that have same or smaller id will stay in Split-1, while others go to Split-2 \nEnter split line's id :\n\n",
+	
+	
+	"translation-1":"\nEnter chart ID:\n",
+	"translation-2":"\nEnter time variation (how many beats):\n",
+	
+	
+	"bye":"see you next time!\n",
+	
+	"404":"Error: File Not Found",
+	"no_bpm":"Error: No BPM detected, filled as 100\n",
+	"bpm_illegal":"Error: BPM illegal, reset as 100\n",
+	"unknown_event":"Error: Unknown eventType\n",
+	"lineid_0":"Error: lineID smaller than 0\n",
+	"event_illegal":"Error: Event's endTime earlier than startTime\n",
+	"direction_illegal":"Error: direction should be 1 or 2\n",
+	"fake_illegal":"Error: isFake should be 0 or 1\n",
+	"hold_illegal":"Error: Hold's endTime earlier than startTime\n",
+	
+	"id_illegal":"Error: ID not in legal range\n",
+	"id_same":"Error: two ID must be different\n",
+	"not_same_format":"Error: charts are not in the same format\n",
+	"already_convert":"\nChart already in that format!\n",
+	"unknown_command":"Unknown Command\n",
+	
+	"merge_caution":"\nCaution: merge may cause overlimit line amount, thus couldn't be open by Phiediter\n\n",
+	
+	"empty":"\nempty space\n\n",
+	
+	"format-1":"Format: Phiediter PEC",
+	"format-2":"Format: Re:PhiEdit Json",
+	
+	"beats_range":"Beats range:",
+	"src_file":"source file",
+	"line":"Line",
+	"note":"Note",
+	"event":"Event",
+	
+	"loading-1":"Loading Phiediter PEC from",
+	"loading-2":"Loading Re:PhiEdit Json from",
+	
+	"negative_alpha":"Warning: Negative Alpha Feature has been removed in RPE",
+	
+	"last_1":"\nInstant events will last for",
+	"last_2":"beats (according to config.json)",
+	"load_meta":"Filling META...\n",
+	"load_bpm":"Loading BPM...\n",
+	"load_line":"Loading Lines...\n",
+	
+	
+	"split1":" Split-1",
+	"split2":" Split-2",
+	
+	"read_deno":"\nReading all possible denominator from deno.txt...\n",
+	"deno_not_found":"Error: deno.txt NOT FOUND, filled as 1 2 3 4 6 8 16 32\n",
+	"deno_loaded":"deno.txt loaded, possible denominators:\n",
+	
+	"to_pe_notice":"\nNotice: Event layers and special events will be ignored\n",
+	"check_bind":"\nCheck whether xy binded...\n",
+	
+	"bind_1":"Ok, nice bind\n\nEasily converting...\n",
+	"seperate_1":"Well, looks they're seperated\n\nTrying to make up...\n",
+	"bind_2":"Ok, now they're binded\n\nEasily converting...\n",
+	"seperate_2":"Oh my, they're still seperated\n\nTry cutting events...\n",
+	"make_up":"Trying to make up again...\n",
+	"bind_3":"\nOk, finally they're binded!\n\nEasily converting...\n",
+	"seperate_3":"Failed to convert T_T\n\n",
+	
+	"done":"\nDone.\n\n",
+	"success":"\nSucceeded.\n\n"
+}

@@ -1,0 +1,278 @@
+SpeedLabel PBS
+YScaleLabel yScaled
+BarGapLabel xAxis
+VBarGapLabel yAxis
+NowLineLabel line
+OtherAlphaLabel minorAlpha
+CameraPosLabel camera
+PlayViewLabel play
+PauseViewLabel stop
+JumpViewLabel jump
+ReplayViewLabel rplay
+InfoEditMainLabel Basic Info
+OffsetLabel offset
+BPMEditMainLabel BPM List
+LineEditMainLabel Line List
+MakeCurveMainLabel Curve Notes
+CheckErrorMainLabel Auto Correcting
+ClipBoardMainLabel Operation History
+GenPicMainLabel Complex Move
+ViewPicMainLabel Note Thumbnail
+SwitchUILabel event
+CopyLabel copy
+ShearLabel shear
+PasteLabel paste
+MakeChangeLabel exe.
+SaveHint0 chart saved
+InfoEditLabel Basic Info
+NameLabel Chart name
+LevelLabel Level
+AuthorLabel Composer
+CharterLabel Charter
+NumIdLabel ID
+OpenLabel Open folder
+ConfirmLabel2 Save
+CancelLabel Cancel
+PageUpLabel pgUp
+PageDownLabel pgDown
+SwitchLabel[0] Note
+SwitchLabel[1] Event
+SwitchLabel[2] Other
+HideWarningLabel Hide Warning
+CheckErrorLabel Auto Correcting
+GenCurveLabel Complex Move
+CurveStLabel stTime
+CurveEdLabel endTime
+CurveXLabel xEquation
+CurveYLabel yEquation
+XtLabel xtimeEasing
+YtLabel ytimeEasing
+ConfirmLabel Gen.
+rhoLabel Density
+dirLabel rEquation
+
+BPMLabel basicBPM
+DeleteWord Sure to Delete?
+ExportLabel Exported to
+AddChartLabel Add Chart
+EditChartLabel Info
+DeleteChartLabel Delete
+ImportChartLabel Import Chart
+ExportChartLabel Export Chart
+EnterLabel Enter
+UploadLabel Upload Chart
+ShopLabel Online Chart
+confirmlabel3 Confirm
+cancellabel3 Cancel
+lineNumLabel Line Amount
+
+ChangeKeepLabel Note
+KeepFakeLabel isFake
+KeepDownLabel isDown
+KeepSpeedLabel speed
+KeepOffsetLabel yOffset
+KeepSizeLabel width
+KeepTimeLabel visTime
+KeepAlphaLabel alpha
+
+BPMEditLabel BPM List
+BPMStartLabel startTime
+BPMValueLabel BPM
+BPMAddLabel Add
+BPMClearLabel Clear
+
+EditHistoryLabel Operation History
+ConfirmLabel4 redo
+CancelLabel4 undo
+
+InfoEditLabel1 Single Note Edit
+time1Label startTime
+time2Label endTime
+xLabel x
+vLabel speed
+posLabel side
+yLabel yOffset
+fakeLabel fake
+sizeLabel width
+showLabel visTime/s
+alLabel alpha
+DeleteLabel5 delete
+ConfirmLabel5 save
+CancelLabel5 cancel
+SaveHintLabel Note Edit Saved
+
+ConfirmLabel6 apply
+CancelLabel6 empty
+InfoEditLabel2 MultiNote Edit
+dataLabel dataType
+typeLabel editType
+lowLabel lowerBound
+upLabel upperBound
+easingLabel1 easing
+cycleLabel Periodic Seq.
+disturbLabel disturb
+
+InfoEditLabel3 Single Event Edit
+stLabel start
+edLabel end
+SaveHintLabel2 Event Edit Saved
+lockedlabel lock
+linkLabel group
+CoverLabel stick
+SampleLabel cut
+RandLabel rand
+NextLabel pass
+CutLabel split
+StickLabel stick
+SwapLabel swap
+
+Mutliswitch11 Edit
+Mutliswitch12 Clone
+LineIdLabel line seq.
+dtLabel time increment
+MixLabel1 xU.L.E.D.
+CloneLabel1 xSeq.
+MixLabel2 yU.L.E.D.
+CloneLabel2 ySeq.
+MixLabel3 rotateU.L.E.D.
+CloneLabel3 rotateSeq.
+MixLabel4 alphaU.L.E.D.
+CloneLabel4 alphaSeq.
+KeepSourceLabel KeepSource
+
+ConfirmCloneLabel apply
+CancelCloneLabel reset
+
+InfoEditLabel4 MultiEvent Edit
+dataLabel2 Event Type
+typeLabel2 editObject
+SaveHintLabel3 Event Edit Applied
+
+LineEditLabel Line List
+BPMStartLabel2 ID
+BPMValueLabel2 Information
+BPMAddLabel2 Add
+LineDeleteLabel Delete
+SaveHintLabel4 Modified Successfully
+AddGroupLabel +Group
+SwitchLabel1 Current State
+SwitchLabel2 Global
+
+MakeCurveLabel Curve Notes
+CurveLabel1 startNote
+CurveLabel2 endNote
+CurveChooseLabel1 choose
+CurveChooseLabel2 choose
+CurveEasingLabel easing
+CurveNoteLabel noteType
+CurveRateLabel density
+SaveHintLabel Curve Notes Generated
+
+ViewPicLabel Note Thumbnail
+DivLabel Col. Beat
+y0Label BottomH
+vwLabel Col. Width
+vgLabel Col. Gap
+lvLabel LowerX
+rvLabel UpperX
+wvLabel NoteWidth
+hvLabel NoteHeight
+svLabel NumSize
+pvLabel BeatsPer
+ovLabel ShowBeat
+yvLabel Follow
+
+ReturnLabel back
+SaveLabel9 save chart
+PreviewLabel play chart
+PecLabel export old format
+ReChartLabel reload chart
+InChartLabel import chart
+LanLabel ”Ô—‘Language
+QuitHint warning: all unsaved content will be lost
+CancelQuitLabel cancel
+switchLabel1 General
+switchLabel2 Hotkey
+switchLabel3 Other
+switchLabel4 A.C. Parameters
+switchLabel5 About
+switchLabel6 Other2
+
+ConfirmLabel7 Confirm
+SaveHint5 settings saved.
+MusicVolumeLabel Music volume
+SEVolumeLabel SE volume
+HighLabel Highlight simul. notes
+HighReLabel Refresh
+WindowLabel Window size(x1920:1080)
+NoteSizeLabel Note width
+LineSizeLabel Line default width
+ShowNumberLabel Mark line ID
+LineColorLabel Line default color
+BackAlphaLabel Background dim
+TapOffsetLabel Hitsound offset1(Tap/Flick)
+DragOffsetLabel Hitsound offset2(Drag)
+
+AutoSaveLabel Autosave(seconds)
+ScrollSpeedLabel Mouse scroll speed
+ScrollControlLabel Event scroll speed
+BackAlphaLabel Back viewer alpha rate
+PreViewLabel Player size 
+SaveEditingLabel Autoapply certain edit
+AutoCtrlLabel Automove to clipboard
+CrushNiceLabel MoveX&Y binded (warning!)
+TipsOnLabel Show tips
+UndoJumpLabel Skip when undo/redo
+AutoStickLabel Autostick events
+CutRhoLabel Cut density/xAxis
+EventDrawLabel Draw event curves
+EventNumLabel Draw event numbers
+BarWidthLabel Line width
+BarAlphaLabel Line dim
+
+ShowKeyLabel Display Keys
+AttachScrollLabel Attach Time
+GapSelectLabel Interval Select
+HisSizeLabel History Size
+ShowDensityLabel Display Density
+
+AboutLabel1 Re:PhiEdit v1.4.0
+AboutLabel2 -
+AboutLabel3 -
+
+XlimLabel NoteX limit
+OverLapLabel Note collide distance
+TimeShortLabel Readtime lowerbound/s
+DragLimLabel Drag warning distance/s
+FlickLimLabel Combine time upperbound/s
+
+PrefabEventLabel Prefab Events
+InputName Name of prefab
+InputName2 Identifiers (English, numbers and underscores only)
+InputAuthor Author
+InputIntro Description
+
+EventVisLabel Event Sampling
+HengGapLabel X interval
+ShuGapLabel Y interval
+BarAlphaLabel1 Line alpha
+
+ScrollAccLabel Scroll Acceleration
+
+FontLabel Font
+
+ShowKeyLabel Show keys
+AttachScrollLabel Keep time attached
+GapSelectLabel Gap selection
+ClickMenuLabel Rightclick menu
+LineSelectLabel Line select
+
+MultiLineMainLabel Multiline Edit
+OpenMultiLabel Multiline edit mode
+MultiVecLabel Line list
+MultiEventLabel Event edit
+HideXYLabel Hide move events
+HideRLabel Hide rotate events
+HideALabel Hide alpha events
+HideVLabel Hide speed events
+MultiScaleLabel Scale

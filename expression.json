@@ -1,0 +1,6 @@
+[
+   {
+      "name" : "negation",
+      "string" : "start=start[n]*-1;\r\nend=end[n]*-1;"
+   }
+]

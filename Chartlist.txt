@@ -1,0 +1,9 @@
+#
+Name: Retribution ~ Cycle of Redemption ~
+Path: 22472470
+Song: 22472470.mp3
+Picture: 22472470.png
+Chart: 22472470.json
+Level: 0
+Composer: Ardolf vs. Daily天利
+Charter: InkofSilicon ~ Error of Recursion ~

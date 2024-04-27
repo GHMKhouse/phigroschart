@@ -1,0 +1,101 @@
+{
+	"welcome":"欢迎使用 PEConverter v0.2\n",
+	"ask":"\n请输入指令:\n\n",
+	"add":"L. 加载一张谱面 (输入字母 L)\n",
+	"convert":"C. 转换谱面格式 (输入 C)\n",
+	"output":"O. 输出谱面 (输入 O)\n",
+	"translation":"T. 按时间平移一张谱面 (输入 T)\n",
+	"merge":"M. 合并两张谱面 (输入 M)\n",
+	"split":"S. 分割谱面 (输入 S)\n",
+	"exit":"E. 退出 (输入 E)\n\n",
+	
+	"add-1":"\n输入谱面文件的名称 (请将谱面文件放在本目录下，输入包括后缀名):\n",
+	"add-2":"\n输入谱面格式:\n\n",
+	"add-2-1":"1.Phiediter PEC (输入 1)\n",
+	"add-2-2":"2.Re:PhiEdit Json\n",
+	"add-2-3":"3.Malody Slide (直接转换到 Re:PhiEdit Json) \n",
+	"add-2-4":"4.Official [formatVersion=3] (直接转换到 Re:PhiEdit Json) \n\n",
+	
+	"output-1":"\n要输出的谱面的编号 (输入 ID):\n",
+	"output-2":"\n输出文件名 (包括后缀名):\n",
+	
+	"convert-1":"\n要转换格式的谱面的编号 (输入 ID):\n",
+	"convert-2":"\n输入目标格式:\n\n",
+	"convert-2-1":"1.Phiediter PEC (输入 1)\n",
+	"convert-2-2":"2.Re:PhiEdit Json\n",
+	
+	"merge-1":"\n输入要合并的两张谱面的编号:\n",
+	
+	"split-1":"\n要分割谱面的ID:\n",
+	"split-2":"\n按时间分割还是按照线号分割？\n\n1.按时间 (输入 1)\n2.按线号\n\n",
+	"split-3":"\n输入分割处时间（以拍为单位）:\n",
+	"split-4":"\n输入分割处线号（线号小于等于它的被分到分割1中，剩余为分割2）:\n\n",
+	
+	
+	"translation-1":"\n输入谱面 ID:\n",
+	"translation-2":"\n输入时间变化量（以拍为单位）:\n",
+	
+	
+	"bye":"下次见\n",
+	
+	"404":"错误：未找到文件",
+	"no_bpm":"错误：没有BPM，自动填充为100\n",
+	"bpm_illegal":"错误：BPM非法，重置为100\n",
+	"unknown_event":"错误：未知的事件类型\n",
+	"lineid_0":"错误: 线号小于0\n",
+	"event_illegal":"错误: 事件起始时间大于结束时间\n",
+	"direction_illegal":"错误: 方向 属性应该为 0 或 1 \n",
+	"fake_illegal":"错误: isFake 属性应该为 0 或 1 \n",
+	"hold_illegal":"错误: Hold音符起始时间大于结束时间\n",
+	
+	"id_illegal":"错误: ID范围不合法\n",
+	"id_same":"错误: 两ID相同\n",
+	"not_same_format":"错误: 谱面未处于相同格式\n",
+	"already_convert":"\n谱面已处于该格式!\n",
+	"unknown_command":"未知指令\n",
+	
+	"merge_caution":"\n合并可能会使线数大于30，导致无法使用 Phiediter 打开\n\n",
+	
+	"empty":"\n空空如也\n\n",
+	
+	"format-1":"格式: Phiediter PEC",
+	"format-2":"格式: Re:PhiEdit Json",
+	
+	"beats_range":"拍数范围:",
+	"src_file":"源文件",
+	"line":"线数",
+	"note":"音符数",
+	"event":"事件数",
+	
+	"loading-1":"加载 Phiediter PEC 从",
+	"loading-2":"加载 Re:PhiEdit Json 从",
+	
+	"negative_alpha":"警告：负数透明度特性在RPE中被移除",
+	
+	"last_1":"\n瞬时事件将会持续",
+	"last_2":"拍 (配置于 config.json)",
+	"load_meta":"填充META...\n",
+	"load_bpm":"加载BPM...\n",
+	"load_line":"加载判定线...\n",
+	
+	"split1":" 分割-1",
+	"split2":" 分割-2",
+	
+	"read_deno":"\n从 deno.txt 中读取所有可能的分母...\n",
+	"deno_not_found":"Error: 未能读取 deno.txt , 分母默认填充为 1 2 3 4 6 8 16 32\n",
+	"deno_loaded":"deno.txt 已加载, 所有时间数据可能的分母如下:\n",
+	
+	"to_pe_notice":"\n注意：多层判定线和特殊事件将被忽略\n\n",
+	"check_bind":"\n检查 xy 是否绑定...\n",
+	
+	"bind_1":"不错, 是绑定的\n\n轻松转换...\n",
+	"seperate_1":"Emmm, 看起来分离了\n\n尝试补齐...\n",
+	"bind_2":"好了, 现在 xy 绑定了\n\n轻松转换...\n",
+	"seperate_2":"天, 还是分离的\n\n尝试切割...\n",
+	"make_up":"再次尝试补齐...\n",
+	"bind_3":"\n终于, xy 绑定好了!\n\n轻松转换...\n",
+	"seperate_3":"转换失败了...呜呜 T_T\n\n",
+	
+	"done":"\n完成\n\n",
+	"success":"\n成功\n\n"
+}

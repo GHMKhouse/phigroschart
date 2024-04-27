@@ -1,0 +1,11 @@
+{
+	"language_file":"text_zh.json",
+	
+	"pe_to_rpe_instant_event":0.125,
+	"slide_to_drag_density_by32":8,
+	"slide_x_l":0.0,
+	"slide_x_r":256.0,
+	"slide_to_speed":10.0,
+	"slide_enable_notesize":0,
+	"slide_default_notesize":60.0
+}
