@@ -7,3 +7,30 @@ Chart: 22472470.json
 Level: 0
 Composer: Ardolf vs. Daily天利
 Charter: InkofSilicon ~ Error of Recursion ~
+#
+Name: Arcana Eden
+Path: 23816580
+Song: 23816580.mp3
+Picture: 23816580.jpg
+Chart: 23816580.json
+Level: AE Lv.16
+Composer: Team Grimoire vs Sakuzyo vs Laur
+Charter: Nisfokic Lion
+#
+Name: 驟雨の狭間
+Path: 56167579
+Song: 56167579.mp3
+Picture: 56167579.jpg
+Chart: 56167579.json
+Level: HD Lv.13
+Composer: Silentroom
+Charter: |n'k'O,f/"S/'/"coN
+#
+Name: Abstruse Dilemma
+Path: 10198492
+Song: 10198492.mp3
+Picture: 10198492.jpg
+Chart: 10198492.json
+Level: 0
+Composer: Ashrount vs. 打打だいず
+Charter: Ink'f Si aka. 矽墨

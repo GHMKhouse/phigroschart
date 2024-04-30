@@ -1,0 +1,9 @@
+#
+Name: Arcana Eden
+Path: 23816580
+Song: 23816580.mp3
+Picture: 23816580.jpg
+Chart: 23816580.json
+Level: AE Lv.16
+Composer: Team Grimoire vs Sakuzyo vs Laur
+Charter: Nisfokic Lion

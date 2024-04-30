@@ -10,7 +10,7 @@
    "BarWidth" : 3.0,
    "CutRho" : 4.0,
    "DefaultColor" : [ 237, 236, 176 ],
-   "GridlineCount" : 17.0,
+   "GridlineCount" : 15.0,
    "HighLight" : true,
    "Language" : "zh.txt",
    "LineScale" : 1.7,
