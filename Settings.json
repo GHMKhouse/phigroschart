@@ -24,7 +24,7 @@
    "ScrollAcc" : true,
    "ScrollControl" : 10.0,
    "ScrollSpeed" : 5.0,
-   "ShowLineInfo" : false,
+   "ShowLineInfo" : true,
    "TipsOn" : false,
    "UndoJump" : false,
    "WindowSize" : 0.90000000000000002,
