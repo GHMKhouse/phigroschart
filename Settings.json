@@ -31,7 +31,7 @@
    "density" : true,
    "lineSelect" : false,
    "maxHistorySize" : 30,
-   "ratioHeight" : 2.0,
-   "ratioWidth" : 3.0,
+   "ratioHeight" : 3.0,
+   "ratioWidth" : 4.0,
    "rightClickMenu" : true
 }
