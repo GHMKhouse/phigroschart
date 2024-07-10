@@ -1,0 +1,9 @@
+#
+Name: Dantalion
+Path: 60712906
+Song: 60712906.mp3
+Picture: 60712906.png
+Chart: 60712906.json
+Level: 0
+Composer: Team Grimoire
+Charter: InkSi & GHMK (Missing)

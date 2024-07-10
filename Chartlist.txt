@@ -34,3 +34,12 @@ Chart: 10198492.json
 Level: BYD  Lv.16
 Composer: Ashrount vs. 打打だいず
 Charter: just Ink of Silicon
+#
+Name: Dantalion
+Path: 60712906
+Song: 60712906.mp3
+Picture: 60712906.png
+Chart: 60712906.json
+Level: 0
+Composer: Team Grimoire
+Charter: InkSi & GHMK (Missing)
