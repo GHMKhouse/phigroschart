@@ -13,7 +13,7 @@
       "id" : "60712906",
       "level" : "0",
       "name" : "Dantalion",
-      "offset" : 30,
+      "offset" : 50,
       "song" : "60712906.mp3"
    },
    "judgeLineGroup" : [ "Default" ],
@@ -16593,7 +16593,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 438, 1, 4 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -16606,7 +16606,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 438, 1, 2 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -16671,7 +16671,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 440, 1, 4 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -16684,7 +16684,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 440, 1, 2 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -16745,11 +16745,11 @@
                "alpha" : 255,
                "endTime" : [ 442, 1, 4 ],
                "isFake" : 0,
-               "positionX" : 0.0,
+               "positionX" : 168.75,
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 442, 1, 4 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -16784,11 +16784,11 @@
                "alpha" : 255,
                "endTime" : [ 442, 3, 4 ],
                "isFake" : 0,
-               "positionX" : 0.0,
+               "positionX" : -168.75,
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 442, 3, 4 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -19534,7 +19534,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 439, 0, 1 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -19547,7 +19547,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 439, 1, 4 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -19586,7 +19586,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 441, 0, 1 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -19599,7 +19599,7 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 441, 1, 4 ],
-               "type" : 1,
+               "type" : 4,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
             },
@@ -19651,19 +19651,6 @@
                "size" : 1.0,
                "speed" : 1.0,
                "startTime" : [ 441, 7, 8 ],
-               "type" : 1,
-               "visibleTime" : 999999.0,
-               "yOffset" : 0.0
-            },
-            {
-               "above" : 2,
-               "alpha" : 255,
-               "endTime" : [ 442, 0, 1 ],
-               "isFake" : 0,
-               "positionX" : 0.0,
-               "size" : 1.0,
-               "speed" : 1.0,
-               "startTime" : [ 442, 0, 1 ],
                "type" : 1,
                "visibleTime" : 999999.0,
                "yOffset" : 0.0
@@ -19721,7 +19708,7 @@
                "yOffset" : 0.0
             }
          ],
-         "numOfNotes" : 27,
+         "numOfNotes" : 26,
          "posControl" : [
             {
                "easing" : 1,

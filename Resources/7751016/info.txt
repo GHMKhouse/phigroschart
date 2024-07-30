@@ -1,0 +1,9 @@
+#
+Name: TiamaT:F minor
+Path: 7751016
+Song: 7751016.mp3
+Picture: 7751016.jpg
+Chart: 7751016.json
+Level: IN  Lv.15
+Composer: Team Grimoire
+Charter: InksI:G major

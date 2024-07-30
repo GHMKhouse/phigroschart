@@ -28,10 +28,10 @@
    "TipsOn" : false,
    "UndoJump" : false,
    "WindowSize" : 0.90000000000000002,
-   "density" : true,
+   "density" : false,
    "lineSelect" : false,
    "maxHistorySize" : 30,
-   "ratioHeight" : 9.0,
-   "ratioWidth" : 16.0,
+   "ratioHeight" : 2.0,
+   "ratioWidth" : 3.0,
    "rightClickMenu" : true
 }
