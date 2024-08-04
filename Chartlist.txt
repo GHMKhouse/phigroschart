@@ -52,3 +52,12 @@ Chart: 7751016.json
 Level: IN  Lv.15
 Composer: Team Grimoire
 Charter: InksI:G major
+#
+Name: World Vanquisher
+Path: 91452459
+Song: 91452459.mp3
+Picture: 91452459.png
+Chart: 91452459.json
+Level: FTR  Lv.15
+Composer: void (Mournfinale)
+Charter: InkOfSilicon
